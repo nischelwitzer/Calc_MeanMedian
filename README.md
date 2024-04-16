@@ -50,7 +50,7 @@ Vector2 getMeanPoint(Queue calcPoints)
 }
 ```
 
-<img src="./images/ConsoleLog_Output.png" width="400">
+<img src="./images/ConsoleLog_Output.png" width="500">
 
 ### MEDIAN
 
