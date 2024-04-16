@@ -14,8 +14,8 @@ With
 Vector2 myPoint = new Vector2(xPoint, yPoint);
 
 // exchange Element
-pointQueue.Enqueue(myPoint);  // first IN  FIFO
-pointQueue.Dequeue();         // last  OUT FIFO
+pointQueue.Enqueue(myPoint);  // FIFO -> First In 2D-Point
+pointQueue.Dequeue();         // FIFO -> First Out 
 
 // calc Mean/Median
 Vector2 meanPoint = getMeanPoint(pointQueue);
