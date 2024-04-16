@@ -1,6 +1,7 @@
 # Calc_MeanMedian
 Calculations Mean and Median
 
+<img src="./images/PointMover.png" width="500">
 
 ## Method 1: C# Queue[^1] - new Queue();
 
