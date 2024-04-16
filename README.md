@@ -22,7 +22,7 @@ Vector2 meanPoint = getMeanPoint(pointQueue);
 Vector2 medianPoint = getMedianPoint(pointQueue);
 ```
 
-<img src="./images/MeanMedianParameter" width="600">
+<img src="./images/MeanMedianParameter.png" width="400">
 
 ### Data Structre and Init
 
@@ -50,7 +50,7 @@ Vector2 getMeanPoint(Queue calcPoints)
 }
 ```
 
-<img src="./images/ConsoleLog_Output" width="600">
+<img src="./images/ConsoleLog_Output.png" width="400">
 
 ### MEDIAN
 
