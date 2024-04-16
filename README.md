@@ -1,16 +1,15 @@
 # Calc_MeanMedian
-Calculations Mean and Median
+Calculations Mean and Median for better "Point" movement. 
+Used for Face68 Landmark for Interface Controlling.
 
-<img src="./images/PointMover.png" width="500">
+<img src="./images/PointMover.png" width="600">
 
-## Method 1: C# Queue[^1] - new Queue();
+### Usage with FIFO[^2] and C# Queue[^1] - new Queue();
 
 With
 * enqueue
 * dequeue
-
-### Usage with FIFO[^2]
-
+ 
 ```
 Vector2 myPoint = new Vector2(xPoint, yPoint);
 
@@ -22,6 +21,8 @@ pointQueue.Dequeue();         // last  OUT FIFO
 Vector2 meanPoint = getMeanPoint(pointQueue);
 Vector2 medianPoint = getMedianPoint(pointQueue);
 ```
+
+<img src="./images/MeanMedianParameter" width="600">
 
 ### Data Structre and Init
 
@@ -48,6 +49,8 @@ Vector2 getMeanPoint(Queue calcPoints)
     return resPoint/calcPoints.Count;
 }
 ```
+
+<img src="./images/ConsoleLog_Output" width="600">
 
 ### MEDIAN
 
